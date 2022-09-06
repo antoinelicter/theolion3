@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://licter.com",
+    "link": "",
+    "text": "Antoine Khaitrine (CEO Licter)"
+  },
+  "text": {
+    "more": "Comment lire ce graphique ?\n\n- Chaque noeud représente un des 50 derniers posts de Théo Lion\n- Chaque lien représente les likers communs entre 2 posts\n- La couleur des posts réprésente la catégorie (TOFU, MOFU, BOFU)\n\nSi 2 posts ont été likés par un grand nombre de comptes en commun, ils se \"rapprochent\" sur ce graphe.\nAussi : \n\n--\u003e Les posts \"centraux\" correspondent à des posts qui sont likés par des personnes ayant l\u0027habitude de liker le contenu de Théo Lion : ces posts sont à privilégier pour toucher la \"fan base\"\n--\u003e Les posts \"éloignés\" correspondent à des posts qui sont likés par des personnes qui likent peu d\u0027autres posts : ces posts touchent donc une audience au-delà de l\u0027audience habituelle et peuvent permettent de l\u0027élargir.\n\n",
+    "intro": "Représentation data des 50 dernières publications LinkedIn de Théo Lion\n\n\n",
+    "title": "Posts LinkedIn - Théo Lion"
+  },
+  "legend": {
+    "edgeLabel": "Likers communs",
+    "colorLabel": "Catégorie",
+    "nodeLabel": "Post"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
